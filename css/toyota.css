@@ -1,177 +1,57 @@
 body {
-    /* font-family: 'Antonio', sans-serif; */
- font-family: 'Raleway', sans-serif;
- /* font-family: 'Poppins', sans-serif;
-    text-align:center; */
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
     /* background-image: url(../images/supra.pg.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat; */
 }
-.landing{
-    background-image: url(../images/supra.pg.jpg);
-    background-size:cover;
+
+.landing {
+    background-image: url(../images/fordraptor.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center; /* Centra la imagen de fondo */
 }
+
 h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    padding-bottom: 10px;
-    color:white;
+    font-size: 2rem; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    padding: 10px 0;
+    color: white;
 }
-.nav img{
-    width: 10vw;
+
+.nav img {
+    width: 8vw; /* Reduzca el tamaño del logo para ajustarse a pantallas pequeñas */
 }
+
 .nav ul li a {
     display: block;
     color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: larger;
+    padding: 10px 16px; /* Reduce el relleno para que quepa en pantallas más pequeñas */
+    font-size: medium; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
     font-weight: 700;
 }
+
 .nav ul li {
-    float: right
+    float: none; /* Evita que los elementos floten y los coloca en una sola columna */
 }
-h2{
-    color:red;
-    text-align: center;
-}
-option{
-    color:black;
-    font-weight: bold;
-    
-}
-.pic{
-    width: 300px;
-    height: 230px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.my-card{
-    padding: 10px 10px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-.category-heading{
-    padding-top: 80px;
-    padding-bottom: 20px;
-}
-.button{
-    color: rgb(20, 173, 15);
-}
-.col-md-4{
-    display: table-cell;
-}
-.my-cart{
-    margin-right: 30px;
-    margin-left: 25px;
-}
-.navbar2 a{
-    margin-left: 55px ;
-}
-.navbar2{
-    overflow: hidden;
 
+.navbar2 a {
+    margin: 0 20px; /* Espacio entre los elementos de navegación en pantallas más pequeñas */
 }
-.sub-heading{
-    padding-bottom: 25px;
-    color: burlywood;
-    text-align: center;
-}
-#sub-heading1{
-    padding-top: 190px;
-}
-#sub-heading2{
-    padding-bottom: 450px;
-}
-/* .cart-header{
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #333;
-}
-.cart-column{
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
-}
-.cart-row{
-    display: flex;
-}
-.cart-item{
-    width: 45%;
-}
-.cart-price{
-    width: 20%;
-    font-size: 1.2em;
-    color: #333;
-}
-.cart-quantity{
-    width: 35%;
-}
-.cart-item-title{
-    color: #333;
-    margin-left: .5em;
-    font-size: 1.2em;
-    
-}
-.cart-item-image{
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
-}
-.btn-danger{
-    color: white;
-    background-color: #EB5757;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
-}
-.btn-danger:hover{
-    background-color: #CC4c4c;
-}
-.cart-quantity-input{
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
-}
-.cart-row:last-child{
-    border-bottom: 1px solid black;
-}
-.cart-row:last-child .cart-column{
-    border: none;
-}
-.cart-total{
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-.cart-total-title{
-    font-weight: bold;
-    font-size: 1.5 em;
-    color: black;
-    margin-right: 20px;
-}
-.cart-total-price{
-    color: #333;
-    font-size: 1.1em;
-}
-.btn-purchase {
-    display: block;
-    margin: 40px auto 80px auto;
-    font-size: 1.75em;
 
-} */
-.nav{
-    padding-top: 8vw;
+/* Agrega un estilo para el texto de subencabezado */
+.sub-heading {
+    padding: 10px 0;
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+/* Añade espaciado superior e inferior a los elementos de subencabezado */
+#sub-heading1 {
+    padding: 20px 0;
+}
+
+#sub-heading2 {
+    padding: 20px 0;
 }
